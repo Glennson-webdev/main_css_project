@@ -96,6 +96,7 @@ nav a:focus {
 }
 button {
     font-family: "Roboto-Medium";
+    font-size: 18px;
     background-color: #3882f6;
     color: white;
     height: 30px;
@@ -181,5 +182,53 @@ img {
     font-family: "Roboto-Bold";
 }
 
+.container .container-sign-up {
+    margin: 400px;
+}
 
+.container-sign-up {
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
 
+#sign-up-call-action {
+    flex-basis: 100%;
+    padding-left: 200px;
+    margin-bottom: 0px;
+    font-family: 'Roboto-Medium';
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+#sign-up-direct {
+    padding-left: 200px;
+    padding-top: 0px;
+    font-family: 'Roboto-Thin';
+    font-size: 18px;
+    color: #e5e7eb;
+   
+}
+
+.button {
+    padding-left: 300px;
+    padding-top: 10px;
+}
+
+.sign-up-btn {
+    justify-content: flex-end;
+    border: 2px solid #e5e7eb;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 50px;
+    background: #1F2937;
+    font-family: "Roboto-Medium";
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
