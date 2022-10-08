@@ -10,10 +10,13 @@
     font-family: 'Roboto-Medium';
     src: url(../fonts/Roboto-Medium.ttf);
 }
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
 
 header {
     background: #1F2937;
-    padding: 1em 1;
 }
 
 h3 {
@@ -148,5 +151,35 @@ img {
 .container-mid {
     justify-content: center;
 }
+
+.container-quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    padding: 100px;
+    padding-bottom: 0px;
+    margin: 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: "Roboto-LightItalic";
+    width: 40%;
+    height: auto;
+}
+.container-quote-author {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding-left: 800px;
+    padding-bottom: 80px;
+    margin: 0;
+}
+.quote-author {
+    font-size: 18px;
+    font-family: "Roboto-Bold";
+}
+
 
 
