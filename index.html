@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Website</title>
-  </head>
-  <body>
-    <header>
-      <div class="container container-nav">
-        <div class="nav-logo">
-          <h3>Gopher Books</h3>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Website</title>
+</head>
+
+<body>
+  <header>
+    <section class="container container-nav">
+      <div class="nav-logo">
+        <h3>Gopher Books</h3>
       </div>
-      <div class="container container-header">
-        <p class="container-main-text">
-          <strong>This website is <br>awesome</strong>
-        </p>
-        <p class="container-secondary-text">
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <div class="button">
-          <button type="button1">Sign up</button>
-        </div>
-        <div class="container-main-image">
-          <img
-            src="./images/books.jpg"
-            alt="column of books stacked on eachother"
-          />
-        </div>
-      </div>
-    </header>
-    <p class="paragraph-mid"><strong>Some random information</strong></p>
-    <main class="container container-mid">
-      <div class="box1"></div>
-      <div class="box2"></div>
-      <div class="box3"></div>
-      <div class="box4"></div>
-    </main>
-    <div class="container container-mid">
-      <div class="box5">
-        this is some subtext under an illustration or image
-      </div>
-      <div class="box6">
-        this is some subtext under an illustration or image
-      </div>
-      <div class="box7">
-        this is some subtext under an illustration or image
-      </div>
-      <div class="box8">
-        this is some subtext under an illustration or image
-      </div>
-    </div>
-    <div class="container-quote">
-      <p class="quote">
-        In every bit of honest writing in the world, there is a base theme.
-        Try to understand men, if you understand each other you will be 
-        kind to each other.
+      <nav>
+        <ul>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="container container-header">
+      <p class="container-main-text">
+        <strong>This website is <br>awesome</strong>
       </p>
-    </div>
+      <p class="container-secondary-text">
+        This website has some subtext that goes here under the main title.
+        It's a smaller font and the color is lower contrast
+      </p>
+      <div class="button">
+        <button type="button1">Sign up</button>
+      </div>
+      <img class="container-main-image" src="./images/books.jpg" alt="column of books stacked on eachother">
+    </section>
+  </header>
+  <main>
+    <p class="paragraph-mid"><strong>Some random information</strong></p>
+    <section class="container container-mid">
+      <img class="box1" src="./images/steinbeck.jpg" rel="author picture: John Steinbeck"></img>
+      <img class="box2" src="./images/nathan_harris.jpg" rel="author picture: Nathan Harris"></img>
+      <img class="box3" src="./images/fitzgerald.jpg" rel="author picture: F. Scott Firzgerald"></img>
+      <img class="box4" src="./images/rowling.jpg" rel="author picture: J.K. Rowling"></img>
+    </section>
+    <section class="container container-mid">
+      <article class="box5">
+        this is some subtext under an illustration or image
+      </article>
+      <article class="box6">
+        this is some subtext under an illustration or image
+      </article>
+      <article class="box7">
+        this is some subtext under an illustration or image
+      </article>
+      <article class="box8">
+        this is some subtext under an illustration or image
+      </article>
+    </section>
+    <figure class="container-quote">
+      <blockquote class="quote">
+        In every bit of honest writing in the world, there is a base theme.
+        Try to understand men, if you understand each other you will be
+        kind to each other.
+        </p>
+    </figure>
     <div class="container-quote-author">
-      <p class="quote-author">-John Steinbeck</p>
+      <figcaption class="quote-author">-John Steinbeck</p>
     </div>
-    <div class="container container-sign-up">
+    <section class="container container-sign-up">
       <p id="sign-up-call-action">Call to action! It's time!</p>
       <p id="sign-up-direct">
         Sign up for our product by clicking that button right there
@@ -79,7 +77,8 @@
       <div class="button">
         <button class="sign-up-btn">Sign up</button>
       </div>
-    </div>
-    <footer class="footer">Copyright ©</footer>
-  </body>
+    </section>
+  </main>
+  <footer class="footer">Copyright ©</footer>
+</body>
 </html>

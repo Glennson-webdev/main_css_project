@@ -15,6 +15,10 @@
     src: url(../fonts/Roboto-LightItalic.ttf);
 }
 
+body {
+    margin: 0;
+}
+
 header {
     background: #1F2937;
 }
@@ -180,6 +184,11 @@ img {
 .quote-author {
     font-size: 18px;
     font-family: "Roboto-Bold";
+}
+
+figure {
+    margin: 0em;
+    height: auto;
 }
 
 .container .container-sign-up {
