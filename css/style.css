@@ -158,6 +158,7 @@ img {
 }
 
 .container-quote {
+    margin: 0;
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
